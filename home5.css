@@ -1,0 +1,263 @@
+html { 
+  background: url(images/backgroundsky.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: auto;
+}
+
+
+body {
+	
+	font-family: arial black, verdana, times new roman, sans-serif;
+	font-size: small;
+	color: white;
+	/*background-color: #e6ffe6;*/
+	line-height: 1.6em; /* create readability, you might delete it */
+	padding:5px;
+	margin:10px;
+	
+}
+
+#allcontent {
+	width: 1200px;
+	margin-left: auto;
+	margin-right: auto;
+	height: auto; 
+}
+
+
+#header {
+	line-height: 1.9em;
+	font-style: none;
+	font-family: Ar Christy, “Times New Roman”, Times, serif;
+	font-size: 350%;
+	border-color: black;
+	border-width: 2px;
+	border-style: solid;
+	padding: 5px;
+	padding-left: 80px;
+	padding-right: 100px; 
+	/*margin: 30px;*/
+	margin-right: 30px;
+	margin-bottom: 5px;
+    /*change the logo later*/
+	/*background-image: url(images/codinglogo.png);
+	background-repeat: no-repeat;
+	background-position:  right; */
+	border-style: dashed;
+	border-color: white;
+
+}
+
+#subheader{
+	text-align: center; 
+	
+	border-color: black;
+border-width: 2px;
+border-style: solid;
+padding: 5px;
+padding-left: 80px;
+
+margin-right: 30px;
+margin-top: 15px;
+border-style: dashed;
+border-color: white;
+
+}
+
+#footer{
+	
+	margin: auto;
+	text-align: center; 
+	border-width: 2px;
+	border-style: solid;
+	padding: 5px;
+	padding-left: 80px;
+	border-style: dashed;
+	border-color: white;
+	padding-top:10px;
+	text-align: center;
+	clear: right;
+}
+
+#sidebar {
+	padding:5px;
+	margin:15px;
+	margin-top: 10px;
+	margin-bottom: auto
+	width: 330px;
+	float:right;
+}
+
+#content {
+	margin-top: 5px;
+	margin-left: 25px;
+	padding: 5px;
+	padding-left: 10px;
+	padding-right: 100px; 
+	height: auto; 
+	width: auto;
+}
+
+#otherheaders{
+	font-family: ar christy, arial, sans-serif;
+	font-size: 250%;
+	text-align: center;
+	padding: 5px;
+	padding-top: 1px;
+}
+
+#sidebar a:link {
+color: #007e7e;
+}
+#sidebar a:visited {
+color: white;
+}
+#sidebar a:hover {
+background: #f88396;
+color: #0d5353;
+} 
+
+.button {
+	border-color: white;
+	border-width: 1px;
+	border-style: dashed;
+	padding: 5px;
+	/*
+	margin: 10px 500px 10px 500px; 
+	text-align: center; */
+	text-align: center;
+	margin: 10px; 
+	
+}
+
+.description{
+	text-align: justify;
+	padding: 5px;
+	/*margin: 10px 500px 10px 500px;*/
+	margin: 10px;
+	font-size: 1em;
+
+}
+
+.copyright {
+	text-align: center;
+}
+
+.about {
+	text-align: center;
+}
+
+h1 {
+	font-size: 350%;
+	font-family: ar christy, arial, sans-serif;
+	font-weight: bold;
+	font-style: none;
+	text-decoration: none;
+	line-height: 1.2em;
+}
+
+h2 {
+	font-size: 200%;
+	font-family: ar christy, verdana, sans serif;
+	line-height: 1.2em;
+}
+
+h3 {
+	font-size: 150%;
+	
+	font-family: simsun, arial, times new roman, sans-serif;
+}
+
+p{
+	font-family:simsun, arial, times new roman, sans serif;
+	font-size: 1.2em;
+	text-align: justify;
+}
+
+/*footer social media css*/
+#social-icons{
+	padding: 5px;
+}
+.follow {
+	text-align: center;
+	
+	font-family: ar christy, arial, sans-serif;
+	font-weight: bold;
+	font-style: none;
+	text-decoration: none;
+	font-size: 2.4em; 
+}
+
+ /* Style all font awesome icons */
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+	border-radius: 50%;
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+    opacity: 0.7;
+}
+
+/* Set a specific color for each brand */
+
+
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+
+
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+} 
+
+.fa-linkedin {
+	 background: #007bb5;
+    color: white;
+}
+/*end of socialmedia css*/
+
+#testimonialquotes {
+	margin: 10px 375px 10px 125px;
+	border-style: dashed;
+	border-color: grey;
+	border-width; 1px;
+	
+}
+
+
+
+#portfolio{
+	margin-bottom:auto;
+		float: left;
+}
+
+div.gallery {
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 180px;
+}
+
+div.gallery:hover {
+    border: 1px solid #777;
+}
+
+div.gallery img {
+    width: 100%;
+    height: auto;
+}
+
+div.desc {
+    padding: 15px;
+    text-align: center;
+}
